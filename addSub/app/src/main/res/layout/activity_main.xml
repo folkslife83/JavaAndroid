@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/no1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="1st"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <EditText
+        android:id="@+id/no2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="2nd"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:onClick="addClick"/>
+
+    <Button
+        android:id="@+id/subBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUB"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:onClick="subClick"/>
+
+    <Button
+        android:id="@+id/multBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULT"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:onClick="multClick"/>
+
+    <Button
+        android:id="@+id/divBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIV"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="147dp"
+        android:onClick="divClick"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="344dp"
+        android:layout_height="64dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="234dp" />
+</LinearLayout>
