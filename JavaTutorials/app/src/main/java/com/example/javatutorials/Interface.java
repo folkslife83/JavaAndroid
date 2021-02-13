@@ -30,8 +30,6 @@ class ZooKeeper {
         System.out.println("feed " + predator.getFood());
     }
 
-
-
     public static void main(String[] args) {
         ZooKeeper zooKeeper = new ZooKeeper();
         Tiger tiger = new Tiger();
@@ -40,3 +38,4 @@ class ZooKeeper {
         zooKeeper.feed(lion);
     }
 }
+

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">addSub</string>
+    <string name="Num_1st">1st</string>
+    <string name="Num_2nd">2nd</string>
+    <string name="add">Add</string>
+    <string name="sub">SUB</string>
+    <string name="mult">MULT</string>
+    <string name="div">DIV</string>
+    <string name="exp_word_01">I just added</string>
+    <string name="exp_word_02">I just subbed</string>
+    <string name="exp_word_03">I just multiplied</string>
+    <string name="exp_word_04">I just devided</string>
 </resources>

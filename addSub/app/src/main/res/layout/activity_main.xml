@@ -10,11 +10,11 @@
 
     <EditText
         android:id="@+id/no1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="1st"
-        android:inputType="textPersonName"
+        android:hint="@string/Num_1st"
+        android:inputType="numberDecimal"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="19dp" />
 
@@ -23,8 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="2nd"
-        android:inputType="textPersonName"
+        android:hint="@string/Num_2nd"
+        android:inputType="numberDecimal"
         tools:layout_editor_absoluteX="5dp"
         tools:layout_editor_absoluteY="69dp" />
 
@@ -32,7 +32,7 @@
         android:id="@+id/addBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
+        android:text="@string/add"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="147dp"
         android:onClick="addClick"/>
@@ -41,7 +41,7 @@
         android:id="@+id/subBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SUB"
+        android:text="@string/sub"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="147dp"
         android:onClick="subClick"/>
@@ -50,7 +50,7 @@
         android:id="@+id/multBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MULT"
+        android:text="@string/mult"
         tools:layout_editor_absoluteX="212dp"
         tools:layout_editor_absoluteY="147dp"
         android:onClick="multClick"/>
@@ -59,7 +59,7 @@
         android:id="@+id/divBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DIV"
+        android:text="@string/div"
         tools:layout_editor_absoluteX="315dp"
         tools:layout_editor_absoluteY="147dp"
         android:onClick="divClick"/>
@@ -71,4 +71,11 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         tools:layout_editor_absoluteX="5dp"
         tools:layout_editor_absoluteY="234dp" />
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        />
+
 </LinearLayout>
